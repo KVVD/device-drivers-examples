@@ -1,0 +1,14 @@
+
+
+1. Create a FIFO with name fifo1:
+   mknod fifo1 p
+
+2. Reading and writing from/into the FIFO:
+   open two terminals: 
+   - one terminal cat > fifo1
+   - second terminal cat fifo1
+
+3. Enter text into terminal 1. You will see same text displayed in terminal 2.
+
+
+

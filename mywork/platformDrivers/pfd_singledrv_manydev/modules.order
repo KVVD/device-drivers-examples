@@ -1,0 +1,3 @@
+kernel//home/letv/kvvd/learning/mywork/platformDrivers/pfd_singledrv_manydev/my_platform_driver.ko
+kernel//home/letv/kvvd/learning/mywork/platformDrivers/pfd_singledrv_manydev/my_device-1.ko
+kernel//home/letv/kvvd/learning/mywork/platformDrivers/pfd_singledrv_manydev/my_device-2.ko

@@ -1,0 +1,1 @@
+cmd_/home/letv/kvvd/learning/mywork/charDrivers/char_drv/char_dev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/letv/kvvd/learning/mywork/charDrivers/char_drv/char_dev.ko /home/letv/kvvd/learning/mywork/charDrivers/char_drv/char_dev.o /home/letv/kvvd/learning/mywork/charDrivers/char_drv/char_dev.mod.o

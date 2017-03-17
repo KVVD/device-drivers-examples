@@ -1,0 +1,28 @@
+
+
+1. compile the driver -- my_char_driver.ko will be generated.
+2. sudo insmod my_char_driver.ko.
+3. dmesg. A message""Major Number: xxx" will de displayed. Note xxx, this is the major number for the char device node.
+4. run the command:
+
+   sudo mknod /dev/mycharDev c xxx 0
+
+   check ls /dev/mycharDev, if this is created or not.
+
+5. Now, sudo chmod 777 /dev/mycharDev
+
+6. Node is ready.
+
+7. Compile the userspace:
+gcc main.c -o b.out
+
+8. Excecute ./b.out
+9. Enjoy.....!!!
+
+
+Note:
+mycharDev is hard coded in main.c and my_char_driver.c files. 
+For a different device name, change in these two files.
+
+
+
